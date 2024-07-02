@@ -6,18 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
-    {{-- PRODUCT 1 --}}
-    <h2>Product Name: {{ $AGN }}</h2>
-    <p>Product Detail: {{ $AGD }}</p>
-    <p>Product Price: {{ $AGP }}</p>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display:flex;flex; justify-content:center; align-items:center; ">
+    <div title="Boku no Pico" style="width: 360px;display: flex;justify-content:center;align-items:center; background-color: #f1f1f1;overflow:hidden;border-radius:25px;border:1px solid black; margin: 0 5px;">
+        <img style="width: 256px; height: 350px;" src="{{ $AGN }}">
+        <h2 class="">{{ $AGD }}</p>
+        <p>{{ $AGP }}</p>
+    </div>
+    <div title="Morphosis" style="width: 360px;display: flex;justify-content:center;align-items:center;background-color: #f1f1f1; overflow:hidden;border-radius:25px;border:1px solid black; margin: 0 5px;">
+        <img style="width: 256px; height: 350px;" src="{{ $AMN }}">
+        <h2 class="">{{ $AMD }}</p>
+        <p>{{ $AMP }}</p>
+    </div>
     {{-- PRODUCT 2 --}}
-    <h2>Product Name: {{ $AMN }}</h2>
-    <p>Product Detail: {{ $AMD }}</p>
-    <p>Product Price: {{ $AMP }}</p>
-    {{-- PRODUCT 2 --}}
-    <h2>Product Name: {{ $GCN }}</h2>
-    <p>Product Detail: {{ $GCD }}</p>
-    <p>Product Price: {{ $GCP }}</p>
+    <div title="hero academia" style="width: 360px;display: flex;justify-content:center;align-items:center;background-color: #f1f1f1;overflow:hidden;border-radius:25px;border:1px solid black;margin: 0 5px;">
+        <img style="width: 256px; height: 350px;" src="{{ $GCN }}">
+        <h2 class="">{{ $GCD }}</p>
+        <p>{{ $GCP }}</p>
+    </div>
 </body>
 </html>
